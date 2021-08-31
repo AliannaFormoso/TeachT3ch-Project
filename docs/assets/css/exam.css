@@ -49,6 +49,8 @@ body {
     height: 40px;
     flex: 1;
     border-radius: 10px;
+    border: 2px solid #2f3366fb;
+    box-shadow: 10px 20px 30px rgba(12, 20, 46, 0.521);
   }
   
   .form-container {
