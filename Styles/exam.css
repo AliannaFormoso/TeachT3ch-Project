@@ -1,0 +1,143 @@
+/* Elements================*/
+body {
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+  }
+  
+  input {
+    height: 16px;
+    width: 12em;
+    border-radius: 5px;
+    padding: 1.5px;
+  }
+  
+  button:hover {
+    background-color: #c1d8e2;
+  }
+  
+  h3 {
+    font-size: 2em;
+  }
+  
+  /* Classes & ID =====================================*/
+  
+  #examContainer {
+    background-color: rgb(221, 230, 233);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 50px auto;
+  }
+  
+  .questionItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 0.5em;
+  }
+  
+  .questionItem p {
+    flex: 4;
+  }
+  
+  .questionItem select {
+    font-size: 18px;
+    width: 8em;
+    height: 40px;
+    flex: 1;
+    border-radius: 10px;
+  }
+  
+  .form-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #c1d8e2;
+    margin-bottom: 90px;
+  }
+  
+  .labelsInputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .resetSubmitButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .submitButton,
+  .resetButton {
+    height: 2.2em;
+    width: 9.2em;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #2f3366fb;
+    transition: all 5s;
+  }
+  .resetButton {
+    background-color: rgb(148, 146, 146);
+  }
+  
+  /* Media queries ======*/
+  
+  @media (max-width: 600px) {
+    .questionsContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .questionItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 3px;
+    }
+  
+    .labelsInputs {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .submitButton,
+    .resetButton {
+      width: 5em;
+    }
+    .resetSubmitButtons {
+      gap: 0.5em;
+    }
+  
+    h3 {
+      font-size: 1.3em;
+    }
+  
+    #email-label {
+      margin-right: 21px;
+    }
+  
+    #age-label {
+      margin-right: 28px;
+    }
+  }
+  

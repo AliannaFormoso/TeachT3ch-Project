@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exam</title>
+    <link rel="stylesheet" type="text/css" href="Styles/global.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/exam.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Frameworks.html">Frameworks</a></li>
+          <li><a href="Exam.html">Exam</a></li>
+        </ul>
+      </nav>
+      <h1>FRAMEWORKS IN WEB DEVELOPMENT</h1>
+    </header>
+    <main>
+      <section id="exam-section">
+        <article>
+          <h2>Exam</h2>
+          <h3>Select true or false according to the statement</h3>
+
+          <div id="examContainer"></div>
+        </article>
+
+        <article>
+          <div class="form-container">
+            <div class="labelsInputs">
+              <div class="labelInput">
+                <label id="name-label" for="name">Full Name:</label>
+                <input
+                  id="name"
+                  type="text"
+                  required
+                  placeholder="Enter your Full Name"
+                />
+              </div>
+              <div class="labelInput">
+                <label id="email-label" for="email">Email:</label>
+                <input
+                  id="email"
+                  type="text"
+                  required
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="labelInput">
+                <label id="age-label" for="number">Age:</label>
+                <input
+                  type="number"
+                  name="age"
+                  id="number"
+                  min="12"
+                  max="80"
+                  required
+                  placeholder="Enter your age"
+                />
+              </div>
+            </div>
+            <div class="resetSubmitButtons">
+              <button class="resetButton" id="reset" type="reset">
+                Reset
+              </button>
+              <button class="submitButton" id="submit" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Alianna <span id="date"></span>
+        <a href="https://www.teacht3ch.com"> TeachT3ch</a> Final Project
+      </p>
+    </footer>
+    <script src="JS/global.js"></script>
+    <script src="JS/exam.js"></script>
+  </body>
+</html>

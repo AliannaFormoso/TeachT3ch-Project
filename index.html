@@ -1,12 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
-</head>
-<body>
-    <h1>Bienvenidos</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="Styles/global.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Frameworks.html">Frameworks</a></li>
+          <li><a href="Exam.html">Exam</a></li>
+        </ul>
+      </nav>
+
+      <h1>FRAMEWORKS IN WEB DEVELOPMENT</h1>
+    </header>
+
+    <main id="main-doc">
+      <section id="index-section">
+        <article id="introduction">
+          <h2>Introduction</h2>
+          <div>
+            <div class="imgParrafTogether mainBlock">
+              <img
+                class="firstImage"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYdAdQnrVDOSNpvaWU3ZGrH5gfngFCGZimcQ&usqp=CAU"
+                alt="Web development image"
+              />
+              <p class="firstParraf">
+                Web development is the work involved in developing a website for
+                the Internet (World Wide Web) or an intranet (a private
+                network). Web development can range from developing a simple
+                single static page of plain text to complex web-based internet
+                applications (web apps), electronic businesses, and social
+                network services. A more comprehensive list of tasks to which
+                web development commonly refers, may include web engineering,
+                web design, web content development, client liaison,
+                client-side/server-side scripting, web server and network
+                security configuration, and e-commerce development. Among web
+                professionals, "web development" usually refers to the main
+                non-design aspects of building websites: writing markup and
+                coding. Web development may use content management systems (CMS)
+                to make content changes easier and available with basic
+                technical skills.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article id="frontWD">
+          <h2>Frontend Web Development</h2>
+
+          <p>
+            Frontend Web development: is the practice of converting data to a
+            graphical interface, through the use of HTML, CSS, and JavaScript,
+            so that users can view and interact with that data.<br />
+            There are several tools and platforms (wordpress, magento etc..)
+            available that can be used to develop the front end of a website,
+            and understanding which tools are best fit for specific tasks marks
+            the difference between developing a hacked site and a well designed,
+            scalable site.
+          </p>
+        </article>
+        <article id="htmlCssJs">
+          <h2>HTML, CSS, JavaScript</h2>
+
+          <div class="imgParraf-container">
+            <div class="imgParrafTogether">
+              <img
+                class="smallImage"
+                src="images/html_logo.png"
+                alt="Html image"
+              />
+              <p>
+                The HyperText Markup Language, or HTML is the standard markup
+                language for documents designed to be displayed in a web
+                browser. It is the most basic building block of the Web. It
+                defines the meaning and structure of web content.
+              </p>
+            </div>
+            <div class="imgParrafTogether">
+              <img
+                class="smallImage"
+                src="images/css_logo.png"
+                alt="Css image"
+              />
+              <p>
+                Cascading Style Sheets is a style sheet language used for
+                describing the presentation of a document written in a markup
+                language such as HTML. CSS is a cornerstone technology of the
+                World Wide Web.
+              </p>
+            </div>
+            <div class="imgParrafTogether">
+              <img
+                class="smallImage"
+                src="images/js_logo.png"
+                alt="JavaScript image"
+              />
+              <p>
+                JavaScript, often abbreviated as JS, is a programming language
+                that conforms to the ECMAScript specification. JavaScript is
+                high-level, often just-in-time compiled, and multi-paradigm. It
+                has curly-bracket syntax, dynamic typing, prototype-based
+                object-orientation, and first-class functions.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <h2>Some helpful videos</h2>
+
+          <div class="videos">
+            <iframe
+              class="theVideo"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/UB1O30fR-EE"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="theVideo"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/yfoY53QXEnI"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="theVideo"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/hdI2bqOjy3c"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Alianna <span id="date"></span>
+        <a href="https://www.teacht3ch.com"> TeachT3ch</a> Final Project
+      </p>
+    </footer>
+    <script src="JS/global.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
 </html>
